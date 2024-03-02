@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #dbad64, #bd9ef3);
+}
+
+.container{
+  width: 21rem;
+  height: 30rem;
+  background: linear-gradient(145deg, #5adb9b, rgb(100, 135, 223));
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  box-shadow: 0.4rem 0.4rem 0.4rem rgb(45, 45, 45);
+}
+
+.box{
+  width: 90%;
+  height: 90%;
+  /* background-color: antiquewhite; */
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.search {
+  width: 80%;
+  height: 12%;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 14%;
+  margin-top: 8%;
+}
+#searchBox{
+  width: 80%;
+  height: 100%;
+  border: none;
+  padding: 0.2rem;
+  padding-left: 1rem;
+  background-color: azure;
+  font-size: 1.1rem;
+  color: rgb(68, 68, 68);
+  border-radius: 9rem;
+  box-shadow: 0.2rem 0.2rem 0.9rem rgb(45, 45, 45);
+}
+
+.click{
+  background-color: azure;
+  height: 100%;
+  width: 25%;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0.2rem 0.2rem 0.9rem rgb(45, 45, 45);
+
+}
+#searchIcon{
+  font-size: 1.3rem;
+  color: #707070;
+}
+.click:active{
+  transition: 0.22s;
+  scale: 0.9;
+}
+
+
+.opImage{
+  /* background-color: #5adb9b; */
+  width: 80%;
+  height: 20%;
+  margin-bottom: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+  font-size: 6rem;
+  text-shadow: 0.4rem 0.4rem 0.4rem black;
+}
+
+.opImage #opImage{
+  margin-right: 1rem;
+}
+
+.output{
+  /* background-color: azure; */
+  /* margin-top: 2rem; */
+  width: 80%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+  margin-bottom: 8%;
+  /* font-size: 2rem; */
+}
+
+.output #temp{
+  font-size: 3rem;
+  margin-bottom: 0.2rem;
+}
+.output #city{
+  font-size: 1.4rem
+}
+
+.othetDetail{
+  /* background-color: azure; */
+  width: 80%;
+  height: 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.othetDetail #humidity{
+  /* background-color: rgb(31, 192, 192); */
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 0.1rem; */
+}
+
+.othetDetail #humidity #humidityImg{
+  color: azure;
+}
+.othetDetail #humidity span{
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  color: azure;
+}
+
+.othetDetail #windSpeed{
+  /* background-color: rgb(31, 192, 192); */
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+
+.othetDetail #windSpeed #windImg{
+  color: azure;
+}
+.othetDetail #windSpeed span{
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  color: azure;
+}
